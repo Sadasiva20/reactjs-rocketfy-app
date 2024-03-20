@@ -10,6 +10,9 @@ import { Container } from './styles';
 
 const data = loadLists();
 
+
+// Creates and renders Board.
+
 export default function Board() {
   const [lists, setLists] = useState(data);
 
